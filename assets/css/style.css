@@ -1,0 +1,67 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #808080;
+  text-align: center;
+}
+.cep_result {
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+h2 {
+  text-align: left;
+  font-size: 2rem;
+}
+.container {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#cep_request {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#cep_request:hover {
+  border: 3px solid cadetblue;
+}
+#Buscar {
+  background-color: #808080;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+}
+#Buscar:hover {
+  background-color: #ddd;
+  color: #141414;
+}
+.copy {
+  display: block;
+  margin-bottom: 20px;
+  color: #fff;
+}
